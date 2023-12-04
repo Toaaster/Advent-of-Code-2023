@@ -1,0 +1,3 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR})
+
+add_executable(solution002 002.cpp)

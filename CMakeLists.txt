@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.14)
-project(aoc2023)
+cmake_minimum_required(VERSION 3.26)
+project(aoc2023 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
-set(CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 if(NOT CMKAE_BUILD_TYPE)
@@ -14,3 +14,5 @@ add_compile_options(-Wall -Wextra -Wconversion -pedantic -Wfatal-errors)
 
 # add different days
 add_subdirectory("001")
+add_subdirectory("002")
+add_subdirectory("003")
